@@ -6,7 +6,6 @@ namespace JogoTexto3.View {
 	public class ConsoleView {
 		static void Main(string[] args) {
 			Player? player;
-			// 1... 2... 3... Teste
 			using (var db = new JogoDbContext()) {
 				// Carregar o jogador salvo no banco de dados, incluindo a localização (sala)
 				player = db.Players
